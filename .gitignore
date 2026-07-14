@@ -1,0 +1,24 @@
+﻿# ── Datos — NUNCA subir (pueden contener datos personales de alumnos) ─────────
+data/**
+!data/.gitkeep
+
+# ── Modelos entrenados ────────────────────────────────────────────────────────
+models/**
+!models/.gitkeep
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+env/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Sistema ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
